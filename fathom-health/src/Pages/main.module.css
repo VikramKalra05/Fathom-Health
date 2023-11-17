@@ -1,0 +1,324 @@
+.topBar{
+    background-image: url(https://assets-global.website-files.com/5e6c01bb5212506d6c119069/5e8115255836db2cd3bfd6b2_background.jpg);
+    width: 100%;
+    text-align: center;
+    height: 530px;
+    color: white;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.topBar>h1{
+    font-size: 68px;
+    letter-spacing: 1px;
+    padding-bottom: 24px;
+    font-weight: 500px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.topBar>p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.topBar>div{
+    border-color: #9a76d0;
+    border-radius: 30px;
+    width: 200px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+    color: #9a76d0;
+    background-color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.newsBar{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    background-color: #f3f5fb;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    color: #6f8093;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newsBar a{
+    color: #9a76d0;
+}
+
+.dots{
+    display: block;
+    width: 140px;
+    height: 222px;
+    position: absolute;
+    transform: translate(25%, -55%);
+}
+
+.serviceDiv{
+    width: 90%;    
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.serviceDiv h1{
+    font-size: 48px;
+    color: #293240;
+}
+
+.serviceDiv p{
+    font-size: 18px;
+    color: #6f8093;
+}
+
+.serviceContainer{
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
+.serviceContainer>div{
+    text-align: center;
+}
+
+.serviceContainer>div img{
+    height: 100px;
+    margin: auto;
+}
+
+.serviceContainer>div h2{
+    font-size: 24px;
+    color: #293240;
+}
+
+.serviceContainer>div p{
+    font-size: 18px;
+    color: #6f8093;
+}
+
+.serviceBtn{
+    margin: auto;
+    margin-top: 50px;
+    width: 250px;
+    border: 3px solid #9a76d0;
+    background-color: transparent;
+    color: #9a76d0;
+    border-radius: 28px;
+    padding: 14px;
+    text-align: center;
+}
+
+.serviceBtn:hover{
+    color: #7756a8;
+    border-color: #7756a8;
+}
+
+.uniqueDiv{
+    width: 90%;
+    margin: auto;
+    padding: 100px;
+    background-color: #f3f5fb;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.uniqueDiv p{
+    color: #6f8093;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.uniqueDiv h1{
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.boldItems{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.boldItems h1{
+    color: #6f8093;
+    font-size: 90px;
+}
+
+.boldItems p{
+    margin-top: 20px;
+    color: black;
+}
+
+.boldItems h2{
+    margin-top: 10px;
+    color: #293240;
+    font-size: 22px;
+}
+
+.boldItems img{
+    width: 100%;
+    height: auto;
+}
+
+.boldItems h3{
+    font-size: 18px;
+    color: #6f8093;
+    margin-top: 10px;
+}
+
+.boldItem{
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.contactFooter{
+    width: 100%;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.contactFooter h1{
+    font-size: 40px;
+    color: #293240;
+}
+
+.contactFooter>div{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0;
+}
+
+.contactFooter>div>div{
+    margin-top: 0px;
+    width: 40%;
+}
+
+.contactFooter>div>div:last-child{
+    background-color: #9a76d0;
+    color: white;
+}
+
+.horRight{
+    margin-top: 100px;
+    margin-left: 79%;
+    height: 44px;
+    margin-bottom: -9%;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .topBar{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        height: 400px;
+        width: 100%;
+    }
+    .topBar>h1{
+        font-size: 40px;
+    }
+    .topBar>p{
+        font-size: 20px;
+    }
+    .topBar>div{
+        font-size: 14px;
+        width: 40%;
+    }
+    .newsBar h1{
+        font-size: 18px;
+    }
+    .serviceContainer{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+    .serviceDiv h1{
+        font-size: 32px;
+    }
+    .serviceContainer>div{
+        width: 80%;
+        margin: auto;
+    }
+    .serviceBtn{
+        width: 50%;
+    }
+    .boldItems{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contactFooter{
+        flex-direction: column;
+    }
+    .contactFooter>div{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+    .topBar{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        height: 400px;
+        width: 100%;
+    }
+    .topBar>h1{
+        font-size: 32px;
+    }
+    .topBar>p{
+        font-size: 16px;
+    }
+    .topBar>div{
+        font-size: 14px;
+        width: 80%;
+    }
+    .newsBar h1{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    .serviceContainer{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+    .serviceDiv h1{
+        font-size: 24px;
+    }
+    .serviceContainer>div{
+        width: 80%;
+        margin: auto;
+    }
+    .serviceBtn{
+        width: 50%;
+    }
+    .boldItems{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .uniqueDiv>h1{
+        font-size: 26px;
+    }
+    .contactFooter{
+        flex-direction: column;
+    }
+    .contactFooter>div{
+        margin-top: 10px;
+        width: 100%;
+    }
+}

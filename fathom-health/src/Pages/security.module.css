@@ -1,0 +1,170 @@
+.reportDiv{
+    width: 100%;
+    background-color: #f3f5fb;
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.reportDiv>h2{
+    color: #293240;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.reportDiv>p{
+    margin: auto;
+    color: #293240;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 60%;
+    text-align: left;
+}
+
+.reportDiv a{
+    color: #9a76d0;
+}
+
+.reportDiv a:hover{
+    color: #7756a8;
+}
+
+.auditDiv{
+    margin-top: 100px;
+    background-color: #f3f5fb;
+    padding: 100px;
+}
+
+.auditCont{
+    margin: auto;
+    width: 60%;
+}
+
+.auditCont h4{
+    color: #6f8093;
+    margin-top: 10px;
+}
+
+.auditCont h1{
+    color:#293240;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.auditCont>div>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.auditImg img{
+    height: auto;
+    width: 100%;
+}
+
+.auditText{
+    width: 80%;
+}
+
+.auditText h2{
+    color: #293240;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.auditText p{
+    color: #293240;
+    font-size: 16px;
+}
+
+.policy{
+    margin: auto;
+    width: 90%;
+    margin-top: 100px;
+    text-align: left;
+    padding: 20px;
+}
+
+.policy p{
+    color: #6f8093;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.policy h1{
+    font-size: 40px;
+    letter-spacing: .01em;
+    line-height: 125%;
+    margin-top: 10px;
+    width: 55%;
+}
+
+.policy h2{
+    margin-top: 10px;
+    width: 55%;
+    font-size: 28px;
+    color: #6f8093;
+}
+
+.policyCont{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.policyItem{
+    display: flex;
+    align-items: center;
+}
+
+.policyItem img{
+    width: 80px;
+    height: auto;
+}
+
+.policyItem p{
+    font-size: 18px;
+    margin-left: 20px;
+    color: #293240;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .reportDiv p{
+        width: 90%;
+    }
+    .auditCont{
+        width: 90%;
+    }
+    .auditDiv{
+        padding: 50px;
+    }
+    .policyCont{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+    .reportDiv p{
+        width: 90%;
+    }
+    .auditCont{
+        width: 90%;
+    }
+    .auditDiv{
+        padding: 20px;
+    }
+    .policy h1{
+        font-size: 24px;
+        width: 90%;
+    }
+    .policy h2{
+        font-size: 18px;
+        width: 80%;
+    }
+    .policyCont{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,119 @@
+.footer{
+    height: 400px;
+    background-image: url(https://assets-global.website-files.com/5e6c01bb5212506d6c119069/5e6edcb60f8bc32556bae915_footer-bg.png);
+    padding-top: 94px;
+    padding-bottom: 20px;
+}
+
+img{
+    height: 30px;
+}
+
+.footerTop{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footerLeft{
+    color: #617182;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.footerLeft>div{
+    display: flex;
+}
+
+.logo{
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #434c57;
+}
+
+.logo img{
+    height: 20px;
+}
+
+h2{
+    color: #617182;
+}
+
+.footerRight p{
+    color: #cacccf;
+}
+
+.footerRight{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.footerRight>div>p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.footerBottom{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .footer{
+        padding-top: 40px;
+    }
+    .footerTop{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerTop>div{
+        margin: auto;
+    }
+    .footerRight{
+        width: 100%;
+    }
+    .footerBottom{
+        margin-top: 20px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+    .footer{
+        padding-top: 35px;
+        height: 500px;
+    }
+    .footerTop{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+    .footerTop>div{
+        margin: auto;
+    }
+    .footerRight{
+        padding-top: 25px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .footerRight>div>p{
+        font-size: 12px;
+    }
+    .footerBottom{
+        margin-top: 15px;
+    }
+}

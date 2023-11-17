@@ -1,0 +1,100 @@
+.videoDiv{
+    width: 90%;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.vidLeft{
+    width: 50%;
+}
+
+.vidLeft div{
+    width: 90%;
+}
+
+.vidLeft>div:first-child>a>img{
+    height: auto;
+    width: 100%;
+}
+
+.vidLeft>div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vidLeft>div>a>img{
+    width: 165px;
+    height: auto;
+    transition: 0.5s all ease-in-out;
+}
+
+.vidLeft>div>a>img:hover{
+    transform: scale(1.1);
+}
+
+.vidRight{
+    width: 50%;
+    padding: 50px;
+    font-size: 14px;
+}
+
+.vidRight>p:first-child{
+    color: #6f8093;
+    margin-bottom: 10px;
+}
+
+.vidRight h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #293240;
+}
+
+.horLeft{
+    margin-left: 5%;
+    height: 44px;
+    margin-top: -2%;
+}
+
+.horRight{
+    margin-top: 100px;
+    margin-left: 79%;
+    height: 44px;
+    transform: rotate(180deg);
+    margin-bottom: -9%;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .videoDiv{
+        flex-direction: column;
+    }
+    .videoDiv>div{
+        margin: auto;
+        width: 100%;
+    }
+    .vidLeft>div{
+        margin: auto;
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+    .videoDiv{
+        flex-direction: column;
+    }
+    .videoDiv>div{
+        margin: auto;
+        width: 100%;
+    }
+    .vidLeft>div{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .vidLeft>div>a>img{
+        width: 100px;
+    }
+}

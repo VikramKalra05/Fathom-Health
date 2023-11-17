@@ -1,0 +1,77 @@
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.navLogo{
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.navPages{
+    margin-right: 80px;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navPages>a{
+    color: #293240;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navPages a:hover{
+    color: #7766a8;
+}
+
+.navPages>.activePage {
+    color: #7766a8;
+}
+.navLogo img{
+    height: 21px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .navPages{
+        width: 60%;
+        margin-right: 20px;
+    }
+    .navPages>a{
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+    .navbar{
+        display: block;
+        width: 100%;
+    }
+
+    .navLogo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        margin-top: 10px;
+    }
+    
+    .navPages{
+        margin: auto;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .navPages>a{
+        font-size: 12px;
+    }
+}
