@@ -220,8 +220,11 @@
 
 .horRight{
     margin-top: 100px;
-    margin-left: 79%;
+    /* margin-left: 79%; */
     height: 44px;
+    position: absolute;
+    right: 0;
+    /* transform: rotate(180deg); */
     margin-bottom: -9%;
 }
 
@@ -315,10 +318,33 @@
         font-size: 26px;
     }
     .contactFooter{
+        /* border: 1px solid red; */
         flex-direction: column;
+        padding: 100px 50px;
     }
     .contactFooter>div{
         margin-top: 10px;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* flex-wrap: wrap; */
+    }
+    .contactFooter>div>div{
+        width: 80%;
+        overflow: hidden;
+    }
+    .contactFooter>div>div>a{
+        /* border: 1px solid red; */
+        max-width: 200px;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-wrap: nowrap;
+        white-space: nowrap;
+    }
+    .contactFooter>h1{
+        font-size: 24px;
+        text-align: center;
     }
 }

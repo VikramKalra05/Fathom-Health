@@ -61,8 +61,10 @@
 
 .horRight{
     margin-top: 100px;
-    margin-left: 79%;
+    /* margin-left: 79%; */
     height: 44px;
+    position: absolute;
+    right: 0;
     transform: rotate(180deg);
     margin-bottom: -9%;
 }
